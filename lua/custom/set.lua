@@ -40,8 +40,9 @@ vim.opt.updatetime = 50
 -- Set column position
 vim.opt.colorcolumn = "80"
 
+-- Set clipboard
+vim.opt.clipboard = "unnamedplus"
+
 -- Set leader key
 vim.g.mapleader = " "
 
--- Set clipboard
-vim.g.clipboard = "unnamedplus"
