@@ -4,5 +4,3 @@ require("toggleterm").setup{
 	insert_mappings = true
 }
 
-vim.keymap.set("n", "<F7>", ":ToggleTerm \n")
-vim.keymap.set('t', '<esc>', [[<C-\><C-n>]]) --
