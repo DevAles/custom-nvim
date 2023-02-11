@@ -19,14 +19,15 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "nzzzv")
 
 -- Replace the word that i was on
-vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w\\>/<C-r><C-w>/gI<Left><Left>")
+vim.keymap.set("n", "<leader>ss", ":%s/\\<<C-r><C-w\\>/<C-r><C-w>/gI<Left><Left>")
 
 -- Set executable permission to a file
-vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
+vim.keymap.set("n", "<leader>xx", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- ToggleTerm
-vim.keymap.set("n", "<F7>", ":ToggleTerm<CR>")
+vim.keymap.set("n", "<F7>", "<cmd>ToggleTerm<CR>")
 vim.keymap.set('t', '<esc>', [[<C-\><C-n>]]) -- Go to normal mode
 
 -- Trouble 
-vim.keymap.set("n", "<leader>e", ":TroubleToggle<CR>")
+vim.keymap.set("n", "<leader>ee", "<cmd>TroubleToggle<CR>")
+vim.keymap.set("n", "<leader>eq", "<cmd>TroubleToggle quickfix<CR>")
