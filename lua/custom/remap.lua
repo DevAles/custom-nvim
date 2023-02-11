@@ -25,5 +25,8 @@ vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w\\>/<C-r><C-w>/gI<Left><Left>"
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- ToggleTerm
-vim.keymap.set("n", "<F7>", ":ToggleTerm \n")
+vim.keymap.set("n", "<F7>", ":ToggleTerm<CR>")
 vim.keymap.set('t', '<esc>', [[<C-\><C-n>]]) -- Go to normal mode
+
+-- Trouble 
+vim.keymap.set("n", "<leader>e", ":TroubleToggle<CR>")
