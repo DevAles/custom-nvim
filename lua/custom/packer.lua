@@ -22,7 +22,6 @@ return require('packer').startup(function(use)
   })
   use ('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use ('nvim-treesitter/playground')
-  use ('ThePrimeagen/harpoon')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
@@ -46,19 +45,7 @@ return require('packer').startup(function(use)
 	  }
 }
 
-use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-  require("toggleterm").setup()
-end}
-
-use {
-  "folke/trouble.nvim",
-  requires = "nvim-tree/nvim-web-devicons",
-  config = function()
-    require("trouble").setup {
-      -- your configuration comes here
-      -- or leave it empty to use the default settings
-      -- refer to the configuration section below
-    }
-  end
-}
+use {"akinsho/toggleterm.nvim", tag = '*'}
+use {"folke/trouble.nvim", requires = "nvim-tree/nvim-web-devicons"}
+use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 end)

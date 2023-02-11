@@ -31,3 +31,7 @@ vim.keymap.set('t', '<esc>', [[<C-\><C-n>]]) -- Go to normal mode
 -- Trouble 
 vim.keymap.set("n", "<leader>ee", "<cmd>TroubleToggle<CR>")
 vim.keymap.set("n", "<leader>eq", "<cmd>TroubleToggle quickfix<CR>")
+
+-- Switch between buffers
+vim.keymap.set("n", "H", "<cmd>bn<CR>")
+vim.keymap.set("n", "L", "<cmd>bp<CR>")
