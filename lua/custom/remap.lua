@@ -5,7 +5,7 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Go to root of current folder
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) 
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- Keep the cursor in same position when use J
 vim.keymap.set("n", "J", "mzJ`z")
@@ -28,10 +28,10 @@ vim.keymap.set("n", "<leader>xx", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("n", "<F7>", "<cmd>ToggleTerm<CR>")
 vim.keymap.set('t', '<esc>', [[<C-\><C-n>]]) -- Go to normal mode
 
--- Trouble 
+-- Trouble
 vim.keymap.set("n", "<leader>ee", "<cmd>TroubleToggle<CR>")
 vim.keymap.set("n", "<leader>eq", "<cmd>TroubleToggle quickfix<CR>")
 
 -- Switch between buffers
-vim.keymap.set("n", "H", "<cmd>bn<CR>")
-vim.keymap.set("n", "L", "<cmd>bp<CR>")
+vim.keymap.set("n", "L", "<cmd>bn<CR>")
+vim.keymap.set("n", "H", "<cmd>bp<CR>")
