@@ -7,5 +7,12 @@ vim.cmd(":so ~/.config/nvim/lua/custom/remap.lua")
 
 -- Run :Ex in startup if run nvim without parameters
 if vim.fn.argc() == 0 then
-  vim.cmd("autocmd VimEnter * :Ex")
+    vim.cmd("autocmd VimEnter * :Ex")
 end
+
+vim.cmd([[
+  augroup Format
+    autocmd!
+    autocmd BufWritePre * undojoin | Neoformat
+  augroup END
+]])
