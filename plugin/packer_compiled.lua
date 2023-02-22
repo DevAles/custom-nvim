@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/devales/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
-  neoformat = {
-    loaded = true,
-    path = "/home/devales/.local/share/nvim/site/pack/packer/start/neoformat",
-    url = "https://github.com/sbdchd/neoformat"
-  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/devales/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
