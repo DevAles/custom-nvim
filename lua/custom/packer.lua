@@ -47,4 +47,5 @@ return require('packer').startup(function(use)
         }
     })
     use { "willthbill/opener.nvim" }
+    use { 'christoomey/vim-tmux-navigator' }
 end)
