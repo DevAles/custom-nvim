@@ -46,7 +46,6 @@ return require('packer').startup(function(use)
             "nvim-telescope/telescope.nvim"
         }
     })
-    use { "willthbill/opener.nvim" }
     use {
         "folke/which-key.nvim",
         config = function()
