@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
     }
     use({
         "jackMort/ChatGPT.nvim",
+        commit = '8820b99c',
         config = function()
             require("chatgpt").setup({
                 -- optional configuration
