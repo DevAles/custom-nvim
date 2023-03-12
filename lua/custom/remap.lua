@@ -33,7 +33,7 @@ vim.keymap.set("n", "L", "<cmd>bn<CR>")
 vim.keymap.set("n", "H", "<cmd>bp<CR>")
 
 -- Fzf
-vim.keymap.set("n", "<leader>ff", "<cmd>FZF<CR>");
+vim.keymap.set("n", "<leader>ff", "<cmd>Ag<CR>");
 
 -- Projects
 vim.keymap.set("n", "<leader>ps", "<cmd>Telescope projects<CR>");
