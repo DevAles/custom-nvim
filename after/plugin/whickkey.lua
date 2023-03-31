@@ -26,8 +26,6 @@ wk.register({
     p = {
         name = "Project",
         f = { "<cmd>Telescope find_files<cr>", "Find File" },
-        p = "List Resume",
-        s = "Search in Files",
         v = "Virtual File Browser"
     },
     q = {
