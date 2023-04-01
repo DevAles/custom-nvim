@@ -14,6 +14,9 @@ vim.keymap.set("n", "J", "mzJ`z")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
+-- Delete without clear register
+vim.keymap.set("x", "<leader>p", [["_dP]])
+
 -- Search statements keeping the cursor in middle of screen
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "nzzzv")
