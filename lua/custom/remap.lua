@@ -38,6 +38,7 @@ vim.keymap.set('t', '<esc>', [[<C-\><C-n>]]) -- Go to normal mode
 -- Switch between buffers
 vim.keymap.set("n", "L", "<cmd>bn<CR>")
 vim.keymap.set("n", "H", "<cmd>bp<CR>")
+vim.keymap.set("n", '<leader>d', '<cmd>bd<CR>')
 
 -- Fzf
 vim.keymap.set("n", "<leader>ff", "<cmd>Ag<CR>");
