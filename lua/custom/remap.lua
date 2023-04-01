@@ -17,6 +17,9 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- Delete without clear register
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
+-- Add hook to won
+vim.keymap.set("n", "<C-f>", "<cmd>silent !won<CR>")
+
 -- Search statements keeping the cursor in middle of screen
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "nzzzv")
@@ -28,7 +31,8 @@ vim.keymap.set("n", "<leader>ss", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left>
 vim.keymap.set("n", "<leader>xx", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- ToggleTerm
-vim.keymap.set("n", "<F7>", "<cmd>ToggleTerm<CR>")
+vim.keymap.set("n", "<C-t>", "<cmd>ToggleTerm<CR>")
+vim.keymap.set("t", "<C-t>", "<cmd>ToggleTerm<CR>")
 vim.keymap.set('t', '<esc>', [[<C-\><C-n>]]) -- Go to normal mode
 
 -- Switch between buffers
