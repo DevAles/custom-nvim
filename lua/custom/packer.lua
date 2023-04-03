@@ -78,4 +78,6 @@ return require('packer').startup(function(use)
             vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
         end
     }
+
+    use { "tpope/vim-fugitive" }
 end)
