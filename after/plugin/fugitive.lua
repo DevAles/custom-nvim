@@ -1,0 +1,6 @@
+vim.keymap.set("n", "<leader>gs", ":Git<CR>")
+vim.keymap.set("n", "<leader>gp", ":Git push<CR>")
+vim.keymap.set("n", "<leader>gP", ":Git pull<CR>")
+vim.keymap.set("n", "<leader>gr", ":Git reset HEAD~1<CR>")
+vim.keymap.set("n", "<leader>gc", ":Git commit<CR>")
+vim.keymap.set("n", "<leader>gca", ":Git commit --amend<CR>")
