@@ -1,3 +1,5 @@
+vim.keymap.set("n", "<leader>Vc", "<cmd>lua Colorize()<CR>");
+
 function Colorize(color)
     color = color or "rose-pine"
     vim.cmd.colorscheme(color)
