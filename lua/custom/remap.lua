@@ -45,3 +45,6 @@ vim.keymap.set("n", "<leader>ff", "<cmd>Ag<CR>");
 
 -- Projects
 vim.keymap.set("n", "<leader>ps", "<cmd>Telescope projects<CR>");
+
+-- Source scripts
+vim.keymap.set("n", "<leader><leader>", "<cmd>so<CR>");
