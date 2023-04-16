@@ -1,7 +1,7 @@
 vim.keymap.set("n", "<leader>Vc", "<cmd>lua Colorize()<CR>");
 
 function Colorize(color)
-    color = color or "rose-pine"
+    color = color or "tokyonight-night"
     vim.cmd.colorscheme(color)
 
     -- sets transparent background
