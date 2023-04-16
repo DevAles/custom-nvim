@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/devales/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  fzf = {
+    loaded = true,
+    path = "/home/devales/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
   ["fzf.vim"] = {
     loaded = true,
     path = "/home/devales/.local/share/nvim/site/pack/packer/start/fzf.vim",
@@ -188,11 +193,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/devales/.local/share/nvim/site/pack/packer/start/which-key.nvim",
     url = "https://github.com/folke/which-key.nvim"
-  },
-  ["zen-mode.nvim"] = {
-    loaded = true,
-    path = "/home/devales/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
-    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 
